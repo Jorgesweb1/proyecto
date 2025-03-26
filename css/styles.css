@@ -1,0 +1,1104 @@
+.team-member {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.team-member img {
+  width: 14rem;
+  height: 14rem;
+  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+}
+.team-member h4, .team-member .h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+.img-brand {
+  height: 2.75rem;
+}
+body{
+  background-color: #359981;
+}
+.bg-aqua-green {
+  background-color: #359981;
+}
+.bg-btn-aqua-green {
+  background-color: #132D46;
+  color: #ffff;
+  font-weight: bold;
+  border: 1px solid #ffffff;
+  border-radius: 1px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+.bg-btn-aqua-green:hover {
+  background-color: #359981;
+  color: #ffffff;
+  border-color: #359981;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+}
+
+.bg-btn-gren {
+  background-color: #359981;
+  color: #ffff;
+  font-weight: bold;
+  border: 1px solid #ffffff;
+  border-radius: 1px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  width: 300px;
+  margin: 10px;
+}
+
+.bg-btn-gren:hover {
+  background-color: #359981;
+  color: #ffffff;
+  border-color: #359981;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.navbar-custom-height {
+  height: 100px;
+}
+.custom-padding {
+  padding: 10px 20px;
+}
+.square-button {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  margin: 2px;
+}
+.bg-btn-img-aqua-green {
+  background-color: #132D46;
+  color: #ffff;
+  font-weight: bold;
+  border-radius: 1px;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+.bg-back-body-green {
+  background-color: #132D46;
+  height: 30px;
+}
+.bg-back-body-yellow {
+  background-color: #f6d05b;
+  height: 30px;
+}
+.carousel-caption-top {
+  top: 150px;
+  bottom: auto;
+  transform: translateY(0);
+}
+
+.line-data {
+  color: #359981;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+.line-data-medium{
+  color: #132D46;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+}
+
+.subtitle {
+  color: #F6D13B;
+  background-color: #359981;
+  padding: 10px 80px;
+  border-radius: 10px;
+  text-align: center;
+}
+.subtitle-v2 {
+  color: #F6D13B;
+  padding: 10px 80px;
+  border-radius: 10px;
+  text-align: center;
+}
+.line-adopta {
+  background-color: #F6D13B;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000; 
+  font-weight: bold;
+  font-size: 1.5em; 
+  background-image: repeating-linear-gradient(
+      to right,
+      #F6D13B 0,
+      #F6D13B 20px,
+      #F6D13B 20px,
+      #F6D13B 40px
+  );
+  background-size: 100px 50px;
+  background-repeat: repeat;
+  position: relative;
+}
+.line-adopta::before {
+  content: "ADOPTA > ADOPTA > ADOPTA > ADOPTA > ADOPTA > ADOPTA > ADOPTA > ADOPTA > ADOPTA > ADOPTA > ADOPTA > ADOPTA";
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #000;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.image-container {
+  position: relative;
+  width: 100%;
+}
+.overlay-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+}
+.overlay-title {
+  color: #f1ce5c ;
+  background-color: #359981;
+  padding: 10px 80px;
+  border-radius: 10px;
+  margin: 50px;  
+  text-align: center;
+}
+.overlay-title2 {
+  color: #ffff ;
+  padding: 10px 80px;
+  border-radius: 10px;
+  margin: 50px;  
+  text-align: center;
+  font-size: 50px;
+}
+
+.overlay-title5 {
+  color: #ffff ;
+  padding: 10px 80px;
+  border-radius: 10px;
+  margin: 50px;  
+  text-align: center;
+  font-size: 50px;
+}
+
+.overlay-title3 {
+  color: #f1ce5c ;
+  padding: 10px 80px;
+  border-radius: 10px;
+  margin: 50px;  
+  text-align: center;
+  font-size: 50px;
+}
+.donaciones {
+  color: #132D46;
+  background-color: #F6D13B;
+  padding: 10px 150px;
+  border-radius: 10px;
+  margin: 50px;  
+}
+.overlay-subtitle {
+  color: #132D46;
+  background-color: #359981;
+  padding: 10px 80px;
+  border-radius: 10px;
+  margin: 50px;
+  border: solid 1px #ffff;
+  text-align: center;
+}
+.overlay-subtitle2 {
+  color: #ffff;
+  padding: 10px 80px;
+  border-radius: 10px;
+  margin: 50px;
+  text-align: center;
+  font-size: 35px;
+}
+.overlay-content-parrafo {
+  color: #ffff;
+  background-color: #0ba69e;
+  padding: 50px 50px;
+  border-radius: 30px;
+  text-align: justify;
+  border: solid 1px #ffff;
+  opacity: 0.7;
+  font-family: parrafo;
+  font-size: 18px;
+}
+.abajo{
+  background-color: #132D46;
+}
+section#contact {
+  background-color: #132D46;
+  background-image: url("../assets/img/map-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+section#team {
+  background-color: #132D46;
+  background-image: url("../img/traje.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+section#black {
+  background-color: #132D46;
+  background-image: url("../img/negrito.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+section#info {
+  background-color: #132D46;
+  background-image: url("../img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+section#donacion {
+  background-color: #359981;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.footer {
+  text-align: center;
+  font-size: 0.9rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
+/* styles page 2 */
+
+section#mascotas {
+  background-image: url("../img/fondo.jpg");
+  background-color: #132D46;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+section#dogcity {
+  background-image: url("../img/panel.jpg");
+  background-color: #132D46;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.subtitle-mascotas {
+  color: #F6D13B;
+  background-color: #359981;
+  padding: 10px 100px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.countdown {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  gap: 20px;
+  font-size: 2rem;
+  color: #005f6b;
+  font-weight: bold;
+  margin-bottom: 20px; 
+  font-family: 'DynaPuff', cursive;
+  font-style: italic;
+}
+.countdown div {
+  text-align: center;
+}
+.countdown span {
+  display: block;
+  font-size: 7rem;
+}
+
+.requisitopage1 {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  color: #F6D13B;
+  font-weight: bold;
+  margin-bottom: 20px; 
+  font-family: 'Bebas Neue', ;
+  text-align: center;
+  display: block;
+  font-size: 4rem;
+}
+.requisitopagev1 {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  color: #F6D13B;
+  font-weight: bold;
+  margin-bottom: 20px; 
+  font-family: 'Bebas Neue', ;
+  text-align: center;
+  display: block;
+  font-size: 5rem;
+}
+.requisitopage2 {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  color: #F6D13B;
+  font-weight: bold;
+  margin-bottom: 20px; 
+  font-family: 'Bebas Neue', ;
+  text-align: center;
+  display: block;
+  font-size: 5rem;
+}
+.requisitopage1 div {
+  text-align: center;
+}
+.requisitopage1 span {
+  display: block;
+  font-size: 5rem;
+}
+
+.subttitle-footer {
+  color: #F6D13B;
+  padding: 10px 100px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+section#casoespeciales {
+  background-image: url("../img/fondo.jpg");
+  background-color: #132D46;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.title-with-lines {
+  color: #FFFF;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5rem;
+  position: relative;
+  padding: 20px 0;
+}
+
+.title-with-lines::before,
+.title-with-lines::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  width: 25%;
+  border-top: 2px solid #ffff;
+  vertical-align: middle;
+  margin-top: -1px; /* Ajuste para centrar las líneas verticalmente */
+}
+
+.title-with-lines::before {
+  left: 0;
+}
+
+.title-with-lines::after {
+  right: 0;
+}
+
+.parrafo-central {
+  padding: 10px 150px;
+}
+.container-box {
+  position: relative;
+  background: #132D46; 
+  color: white; 
+  padding: 40px;
+  text-align: center;
+  border-radius: 15px;
+  width: 700px;
+  min-height: 250px; 
+  margin: 10px;
+}
+.img-left {
+  position: absolute;
+  bottom: -20px;
+  left: -80px;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+.img-right {
+  position: absolute;
+  right: -140px;
+  top: -20px;
+  height: 330px; 
+  width: 330px;
+  object-fit: cover; 
+  border-radius: 10px;
+}
+
+.custom-container {
+  background-color: #132D46;
+  color: white;
+  border-radius: 40px;
+  padding: 20px;
+  text-align: center;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 20px;
+}
+.img-custom{
+  margin: 10px;
+}
+
+.img-card-container{
+  background: #132D46; 
+}
+.card-image {
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.title-voluntariado{
+  color: #ffff;
+  font-size: 65px;
+}
+.title-paragraph{
+  color: #ffff;
+  font-size: 20px;
+  width: 50%;
+  margin: 20px 0px;
+}
+
+section#page3section1 {
+  background-image: url("../img/portada1page3.jpg");
+  background-color: #132D46;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+section#page3section2 {
+  background-image: url("../img/portada2page3.jpg");
+  background-color: #132D46;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+section#page3section3 {
+  background-image: url("../img/portada3page3.jpg");
+  background-color: #132D46;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+section#requisitospage1 {
+  background-image: url("../img/requisitos2.jpg");
+  background-color: #132D46;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+section#requisitospage2 {
+  background-image: url("../img/requisitos4.jpg");
+  background-color: #132D46;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+section#requisitospage3 {
+  background-image: url("../img/requisitos3.jpg");
+  background-color: #132D46;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+section#educacionpage1 {
+  background-image: url("../img/educacionpage1.jpg");
+  background-color: #132D46;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 20px;
+}
+section#educacionpage2 {
+  background-image: url("../img/fondo.jpg");
+  background-color: #132D46;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  padding: 20px;
+}
+section#educacionpage3 {
+  background-color: #132D46;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  padding: 20px;
+}
+section#educacionpage4 {
+  background-color: #0ba69e;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  padding: 20px;
+}
+
+.img-educacion1{
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  border: solid 1px #ffff;
+}
+.parrafo-educacion1{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  border: solid 1px #ffff;  
+  background-color: #132D46;
+}
+
+.parrafo-data{
+  color: #ffff;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  padding: 70px;
+  border-radius: 10px;
+  text-align: center;
+}
+.contacto-data{
+  background-color: #132D46;
+  font-weight: bold;
+  text-align: center;
+  font-size: 15px;
+  color: #F6D13B;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+.img-qr {
+  width: 300px;
+  height: 300px;
+}
+
+section#invitacionpage1 {
+  background-image: url("../img/invitacionPortada.jpg");
+  background-color: #132D46;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+section#felicidadespage1 {
+  background-image: url("../img/felicidades.jpg");
+  background-color: #132D46;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+@media (max-width: 576px) {
+  section#felicidadespage1 {
+    background-size: contain; 
+  }
+  .title-felicidades{
+    display: none;
+  }
+}
+
+.title-felicidades{
+  color: #ffff;
+  font-size: 40px;
+  font-family: 'Bebas Neue', ;
+  text-align: center;
+  padding: 70px;
+}
+
+.title-requisitos{
+  color: #F6D13B;
+  font-size: 50px; 
+  text-align: center;
+}
+.title-requisitosv2{
+  color: #F6D13B;
+  font-size: 70px; 
+  text-align: center;
+}
+.title-requisitos2{
+  color: #ffff;
+  font-size: 5rem; 
+  font-family: 'Bebas Neue', ;
+  text-align: center;
+}
+.title-educacion{
+  color: #ffff;
+  font-size: 4rem; 
+  font-family: 'Bebas Neue', ;
+  text-align: center;
+}
+
+.container-element {
+   padding-top: 10%;
+}
+
+.requisitos-parrafo {
+  color: #ffff;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: justify;
+}
+
+.requisitos-item{
+  color: #ffff;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  background-color: #144d5a;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+.requisitos-item-especifico{
+  color: #F6D13B;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+.requisitos-item-parrafo{
+  color: #F6D13B;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.requisitos-title {
+  color: #ffff;
+  font-family: 'Lato', sans-serif;
+}
+.educacion-title2 {
+  color: #ffff;
+  font-family: 'Bebas Neue', ;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.requisitos-paragraph {
+  color: #ffff;
+  font-size: 17px;
+  font-family: 'Lato', sans-serif;
+}
+.requisitos-paragraph1 {
+  color: #ffff;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+.educacion-paragraph {
+  color: #ffff;
+  font-size: 17px;
+  font-family: 'Lato', sans-serif;
+  padding: 20px;
+  border: 1px solid #ffff;
+  border-radius: 10px;
+}
+
+.card-requisitos{
+  margin: 50px;
+}
+
+.day-help {
+  color: #F6D13B;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+.day-help1 {
+  color: #ffff;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+.title-zone{
+  color: #ffff;
+  font-weight: bold;
+  background-color: #132D46;
+  border-radius: 20px;
+  text-align: center;
+  width: max-content;
+  padding: 0px 50px;
+}
+.title-zone{
+  color: #ffff;
+  font-weight: bold;
+  background-color: #132D46;
+  border-radius: 10px;
+  text-align: center;
+  width: max-content;
+  padding: 0px 50px;
+}
+.title-paragraph{
+  color: #ffff;
+  background-color: #132D46;
+  border-radius: 20px;
+  text-align: center;
+  padding: 50px;
+  border: solid 1px #ffff;
+  width: 70%;
+}
+
+.position-relative {
+  position: relative; 
+  font-size: 25px;
+}
+
+.img-overlay {
+  position: absolute;
+  top: -50px; 
+  right: -150px;
+  width: 200px; 
+  z-index: 10; 
+  border: solid 1px #ffff;
+  border-radius: 100%;
+}
+
+.bottom-content{
+  background-color: #132D46;
+  width: max-content;
+  color: #ffff;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: solid 1px #ffff;
+  margin-top: 25%;
+  text-align: center;
+}
+
+.voluntariado-paragraph{
+  color: #ffff;
+  font-size: 20px;
+  width: 50%;
+  margin: 20px 0px;
+}
+
+.card {
+  background-color: #144d5a; 
+  padding: 20px;
+  max-width: 400px;
+}
+.item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+.item img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+.text {
+  font-size: 20px;
+  color: #fff;
+}
+.parrafo{
+  color: #ffff;
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  padding: 30px 200px ;
+  text-align: center;
+}
+.subttitle-footer1 {
+  color: #ffff;
+  padding: 10px 100px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.title-page2{
+  color: #ffff;
+  font-size: 50px;
+  font-family: 'Bebas Neue', ;
+  text-align: left;
+  padding: 10px 300px;
+  font-weight: bold;
+}
+.title-page3{
+  color: #ffff;
+  font-size: 50px;
+  font-family: 'Bebas Neue', ;
+  text-align: center;
+  padding: 10px 300px;
+  font-weight: bold;
+}
+.name-page2{
+  color: #ffff;
+  font-size: 35px;
+  font-family: 'Bebas Neue', ;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+@media (min-width: 768px) {
+  .title-with-lines::before,
+  .title-with-lines::after {
+    width: 25%;
+  }
+  .container-font {
+      color: #F6D13B;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .parrafo{
+      color: #ffff;
+      font-family: 'Lato', sans-serif;
+      font-size: 1em;
+      padding: 30px 250px ;
+      text-align: center;
+  }
+  .subida{
+    margin-top: -150px;
+  }
+}
+@media (max-width: 576px) {
+  .title-with-lines::before,
+  .title-with-lines::after {
+    width: 10%;
+  }
+  .container-font {
+      color: #F6D13B;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .parrafo{
+    color: #ffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    padding: 30px 250px ;
+    text-align: center;
+  }
+  .subida{
+    margin-top: 0px;
+  }
+  .img-left {
+    width: 60px;
+    height: 60px;
+  }
+
+  .img-right {
+      width: 80px;
+  }
+  .parrafo-central {
+      padding: 0px;
+  }
+  .title-voluntariado{
+    color: #ffff;
+    font-size: 45px;
+  }
+  .title-paragraph{
+    color: #ffff;
+    font-size: 20px;
+    width: 100%;
+    margin: 20px 0px;
+  }
+  .voluntariado-paragraph{
+    color: #ffff;
+    font-size: 20px;
+    width: 100%;
+    margin: 20px 0px;
+  }
+  .title-requisitos{
+    color: #F6D13B;
+    font-size: 15px; 
+    text-align: center;
+  }
+  .title-requisitos2{
+    color: #ffff;
+    font-size: 1rem; 
+    font-family: 'Bebas Neue', ;
+    text-align: center;
+  }
+  
+  .requisitos-parrafo {
+    color: #ffff;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: justify;
+  }
+  .requisitos-item{
+    color: #ffff;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    background-color: #359981;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .requisitopage1 {
+    position: relative;
+    color: #F6D13B;
+    font-weight: bold;
+    font-family: 'Bebas Neue', ;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .requisitopagev1 {
+    position: relative;
+    color: #F6D13B;
+    font-weight: bold;
+    font-family: 'Bebas Neue', ;
+    text-align: center;
+    font-size: 3rem;
+  }
+  .requisitopage2 {
+    position: relative;
+    color: #F6D13B;
+    font-weight: bold;
+    font-family: 'Bebas Neue', ;
+    text-align: center;
+    font-size: 3rem;
+  }
+  .title-educacion{
+    color: #ffff;
+    font-size: 2rem; 
+    font-family: 'Bebas Neue', ;
+    text-align: center;
+  }
+  .educacion-paragraph {
+    color: #ffff;
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid #ffff;
+    border-radius: 10px;
+  }
+  .educacion-title2 {
+    color: #ffff;
+    font-family: 'Bebas Neue', ;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .img-educacion1 {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    border: solid 1px #ffff;
+    display: none; 
+  }
+  .parrafo-educacion1{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: solid 1px #ffff;  
+    background-color: #144d5a;
+  }
+  .parrafo-data{
+    color: #ffff;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .img-qr {
+    width: 100px;
+    height: 100px;
+  }
+  .title-felicidades{
+    color: #ffff;
+    font-size: 15px;
+    font-family: 'Bebas Neue', ;
+    text-align: center;
+    padding: 10px;
+  }
+  .overlay-subtitle2 {
+    color: #ffff;
+    padding: 10px 80px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 10px;
+  }
+  .team-member {
+    text-align: center;
+  }
+  .team-member img {
+    width: 6rem;
+    height: 6rem;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  }
+  .overlay-title5 {
+    display: none;
+  }
+  .title-page2{
+    color: #ffff;
+    font-size: 50px;
+    font-family: 'Bebas Neue', ;
+    text-align: left;
+    padding: 10px 40px;
+    font-weight: bold;
+  }
+  .title-requisitosv2{
+    color: #F6D13B;
+    font-size: 20px; 
+    text-align: center;
+  }
+}
